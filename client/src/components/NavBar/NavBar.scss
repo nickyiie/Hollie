@@ -1,0 +1,32 @@
+@import '../../partials/typography';
+@import '../../partials/variables';
+.navbar {
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  &__name {
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: .5rem;
+  }
+  &__title {
+    font-family: 'ELEGANT TYPEWRITER';
+    font-size: .75rem;
+    text-align: center;
+  }
+
+  &__links {
+    display: flex;
+    font-size: .6rem;
+  }
+
+  &__link {
+    margin-right: .2rem;
+  }
+
+}

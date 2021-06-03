@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ELEGANT TYPEWRITER';
+    src: url('ELEGANTTYPEWRITER.woff2') format('woff2'),
+        url('ELEGANTTYPEWRITER.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ELEGANT TYPEWRITER';
+    src: url('../typography/ELEGANTTYPEWRITER-Bold.woff2') format('woff2'),
+        url('../typography/ELEGANTTYPEWRITER-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
